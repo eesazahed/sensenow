@@ -1,4 +1,4 @@
-const getTimeFormatted = (time: number) => {
+const getTimeFormatted = (timeISO: string) => {
   const timeFormats = [
     [60, "seconds", 1],
     [120, "1 minute ago", "1 minute from now"],
@@ -16,6 +16,8 @@ const getTimeFormatted = (time: number) => {
     [5806080000, "Last century", "Next century"],
     [58060800000, "centuries", 2903040000],
   ];
+
+  const time = new Date(timeISO).getTime();
 
   let seconds = (+new Date() - time) / 1000;
   let token = "ago";

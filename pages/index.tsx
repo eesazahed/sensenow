@@ -1,27 +1,36 @@
 import type { NextPage } from "next";
 import PageHead from "../components/PageHead";
 import Title from "../components/Title";
-import Gradient from "../components/Gradient";
-import Link from "../components/Link";
+import getUserFromSession from "../utils/getUserFromSession";
 
-const Home: NextPage = () => {
+interface Props {
+  user: UserType;
+}
+
+const Home: NextPage<Props> = ({ user }) => {
   return (
-    <div className="mx-8 text-center">
+    <div>
       <PageHead title="Home" />
 
-      <main className="p-16 leading-8 text-xl min-h-screen">
-        <Title text="next-auth-boilerplate" emoji="&#128075;" />
-        <p>Hi</p>
-      </main>
+      <main>
+        <Title text="next-auth-boilerplate" emoji="&#128075;" gradient />
 
-      <footer className="py-16">
-        <p>
-          Designed and developed by{" "}
-          <Link text="Eesa Zahed" href="https://eesa.zahed.ca" />
-        </p>
-      </footer>
+        <p>Welcome</p>
+
+        {user && <p>Logged in as {user.name}</p>}
+      </main>
     </div>
   );
 };
 
 export default Home;
+
+export const getServerSideProps = async (context: any) => {
+  const user = await getUserFromSession(context.req);
+
+  return {
+    props: {
+      user,
+    },
+  };
+};

@@ -11,7 +11,7 @@ const Btn: NextPage<Props> = ({ text, onClick, color, submit }) => {
   return (
     <button
       style={{ background: color || "#1E90FF" }}
-      className="mt-8 hover:brightness-90 w-full text-white text-base py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline"
+      className="mt-8 hover:brightness-90 w-full text-white text-base py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline duration-200"
       onClick={() => (onClick ? onClick() : {})}
       type={submit ? "submit" : "button"}
     >

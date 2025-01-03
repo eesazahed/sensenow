@@ -4,6 +4,8 @@ import type { AppProps } from "next/app";
 import { SessionProvider } from "next-auth/react";
 import { Session } from "next-auth";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import TopNav from "../components/TopNav";
 
 const App = ({
   Component,
@@ -12,8 +14,14 @@ const App = ({
   session: Session;
 }>) => (
   <SessionProvider session={pageProps.session}>
-    <Navbar />
-    <Component {...pageProps} />
+    <div className="md:flex md:flex-col-reverse">
+      <TopNav />
+      <div className="mx-8 text-center p-16 leading-8 text-xl min-h-screen">
+        <Component {...pageProps} />
+      </div>
+      <Navbar />
+    </div>
+    <Footer />
   </SessionProvider>
 );
 

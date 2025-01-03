@@ -9,7 +9,10 @@ const PageHead: NextPage<Props> = ({ title }) => {
   return (
     <Head>
       <title>{`next-auth-boilerplate | ${String(title)}`}</title>
-      <meta name="description" content="RedditLite. Made by Eesa Zahed" />
+      <meta
+        name="description"
+        content="next-auth-boilerplate. Made by Eesa Zahed"
+      />
       <link rel="icon" href="/assets/images/favicon.ico" />
     </Head>
   );

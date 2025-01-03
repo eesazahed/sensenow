@@ -13,9 +13,12 @@ const NavItem: NextPage<Props> = ({ text, href, auth }) => {
   if (auth && session.status === "loading") return <></>;
 
   return (
-    <div className="p-4">
+    <div className="p-3 text-sm md:text-md w-full">
       {!auth ? (
-        <a className="text-white" href={`/${href}`}>
+        <a
+          className="block px-3 md:px-5 py-4 rounded-xl hover:bg-gray-700 cursor-pointer duration-100 text-white"
+          href={`/${href}`}
+        >
           {text}
         </a>
       ) : (
@@ -25,9 +28,11 @@ const NavItem: NextPage<Props> = ({ text, href, auth }) => {
               ? () => signOut()
               : () => signIn()
           }
-          className="cursor-pointer"
+          className="block px-3 md:px-5 py-4 rounded-xl hover:bg-gray-700 cursor-pointer duration-100 text-white whitespace-nowrap"
         >
-          {session.status === "authenticated" ? "Sign out" : "Sign in"}
+          <span className="text-nowrap">
+            {session.status === "authenticated" ? "Sign out" : "Sign in"}
+          </span>
         </span>
       )}
     </div>
