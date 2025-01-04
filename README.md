@@ -1,6 +1,12 @@
 # next-auth-boilerplate
 
-A boilerplate
+A boilerplate to save time on setting up:
+
+- Next.js
+- Tailwind
+- Prisma
+- Next-auth
+- Sqlite
 
 Clone it and run `npm i`.
 
