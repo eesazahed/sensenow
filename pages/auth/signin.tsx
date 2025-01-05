@@ -16,7 +16,7 @@ const SignIn: NextPage<Props> = ({ providers }) => {
       <main>
         <Title text="Sign in" />
 
-        <div className="w-[400px] mx-auto mb-16">
+        <div className="max-w-[400px] mx-auto mb-16">
           {Object.values(providers).map((provider) => (
             <Btn
               key={provider.name}
