@@ -16,6 +16,11 @@ then install the node modules
 
 `npm i`
 
+initialize the prisma sqlite db with
+
+`npx prisma db push`
+
+setup [google auth credentials](https://console.cloud.google.com/projectcreate) and create a `.env` file based off the template in `.env.example`
 
 then run it 
 
