@@ -8,6 +8,10 @@ A boilerplate to save time on setting up:
 - Next-auth
 - Sqlite
 
-Clone it and run `npm i`.
+Clone it 
+
+`git clone https://github.com/eesazahed/next-auth-boilerplate.git .`
+
+and run `npm i`
 
 ![image](public/assets/images/ss-01-03-2025.png)
