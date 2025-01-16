@@ -23,13 +23,30 @@ const Home: NextPage = () => {
       </Head>
       <main className="px-8 md:w-1/2 mx-auto my-48 md:text-xl">
         <h1 className="my-8 text-4xl md:text-7xl font-bold bg-gradient-to-r from-[#b800ff] to-[#d4fc00] bg-clip-text text-transparent">
-          Learn with Eesa
+          Coding is important
         </h1>
         <div className="m-1">
           <section className="mb-8">
             <p>
-              My goal is to prepare high school students with{" "}
-              <b>little to no</b> prior coding experience
+              The{" "}
+              <a
+                href="https://www.dcp.edu.gov.on.ca/en/curriculum/science-technology"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ontario Ministry of Education
+              </a>{" "}
+              now includes coding in younger grades to help kids build important
+              problem-solving and tech skills as of 2022
+            </p>
+            <br />
+            <p>
+              Getting a head start in coding can give your child the confidence
+              and skills they need to succeed in this new curriculum and beyond
+            </p>
+            <br />
+            <p className="font-bold text-2xl mb-2">
+              Is your child in grades 4-8?
             </p>
             <br />
             <p>
