@@ -59,6 +59,7 @@ const Home: NextPage = () => {
                 <a
                   href="https://cs50.harvard.edu/certificates/2020086e-51d6-4098-9026-29048e0651c5.png"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Harvard
                 </a>
@@ -66,6 +67,7 @@ const Home: NextPage = () => {
                 <a
                   href="https://www.freecodecamp.org/eesazahed"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   freeCodeCamp
                 </a>
@@ -76,6 +78,7 @@ const Home: NextPage = () => {
                 <a
                   href="https://www.freecodecamp.org/news/author/eesazahed/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   {" "}
                   online
@@ -90,12 +93,20 @@ const Home: NextPage = () => {
             <h2 className="font-bold text-2xl mb-2">Find me online </h2>
             <ul className="list-disc ml-6 leading-8">
               <li>
-                <a href="https:/linkedin.com/in/eszhd" target="_blank">
+                <a
+                  href="https:/linkedin.com/in/eszhd"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   LinkedIn
                 </a>
               </li>
               <li>
-                <a href="https:/github.com/eesazahed" target="_blank">
+                <a
+                  href="https:/github.com/eesazahed"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   GitHub
                 </a>{" "}
                 [{reposCount} public repos]
