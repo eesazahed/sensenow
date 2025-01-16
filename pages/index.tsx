@@ -28,16 +28,16 @@ const Home: NextPage = () => {
         <div className="m-1">
           <section className="mb-8">
             <p>
-              My goal is to prepare high school students with little to no prior
-              coding experience
+              My goal is to prepare high school students with{" "}
+              <b>little to no</b> prior coding experience
             </p>
             <br />
             <p>
-              I&apos;ll teach you the basics of Python, one of the most
-              versatile programming languages of the 21st century
+              I teach the basics of <b>Python</b> — a versatile programming
+              language taught in many schools and universities
             </p>
             <br />
-            <p>The best way to get in touch is by sending me an email</p>
+            <p>The best way to get in touch is by sending me an email:</p>
             <br />
             <p>
               <a>eszhd1 (at) gmail.com</a>
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
             <ul className="list-disc ml-6 leading-8">
               <li>8+ years of coding experience</li>
               <li>
-                Knowledgable in Python, Javascript/Typescript, Java and SQL
+                Knowledgeable in Python, JavaScript/TypeScript, Java, and SQL
               </li>
 
               <li>
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
                 </a>
               </li>
               <li>Teaching experience through the GPP3O course</li>
-              <li>Earned a credit in ICD2O & ICS3U</li>
+              <li>Earned credits in ICD2O & ICS3U</li>
             </ul>
           </section>
 
