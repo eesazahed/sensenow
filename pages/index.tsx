@@ -94,7 +94,7 @@ const Home: NextPage = () => {
             <ul className="list-disc ml-6 leading-8">
               <li>
                 <a
-                  href="https:/linkedin.com/in/eszhd"
+                  href="https://linkedin.com/in/eszhd"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -103,7 +103,7 @@ const Home: NextPage = () => {
               </li>
               <li>
                 <a
-                  href="https:/github.com/eesazahed"
+                  href="https://github.com/eesazahed"
                   target="_blank"
                   rel="noreferrer"
                 >
