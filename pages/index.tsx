@@ -14,7 +14,7 @@ const Home: NextPage = () => {
   return (
     <div className="mx-8">
       <Head>
-        <title>Eesa Zahed</title>
+        <title>Learn with Eesa</title>
         <link
           rel="shortcut icon"
           href="https://avatars.githubusercontent.com/u/97064249?v=4"
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
       </Head>
       <main className="px-8 md:w-1/2 mx-auto my-48 md:text-xl">
         <h1 className="my-8 text-4xl md:text-7xl font-bold bg-gradient-to-r from-[#b800ff] to-[#d4fc00] bg-clip-text text-transparent">
-          Eesa Zahed
+          Learn with Eesa
         </h1>
         <div className="m-1">
           <section className="mb-8">
