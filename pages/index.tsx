@@ -18,14 +18,14 @@ const Home: NextPage = () => {
         <link
           className="mb-4"
           rel="shortcut icon"
-          href="/assets/images/logo.png"
+          href="https://gist.github.com/user-attachments/assets/4aab369f-1ba7-4e03-9e6a-dc1d7c94213a.png"
           type="image/x-icon"
         />
       </Head>
       <main className="px-8 md:w-1/2 mx-auto md:text-xl">
         <div className="px-8 mx-auto md:w-1/2 my-16">
           <img
-            src="/assets/images/logo.png"
+            src="https://gist.github.com/user-attachments/assets/4aab369f-1ba7-4e03-9e6a-dc1d7c94213a.png"
             className="w-full"
             alt="Logo for SenseNow Academy"
           />
