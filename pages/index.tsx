@@ -14,64 +14,78 @@ const Home: NextPage = () => {
   return (
     <div className="mx-8">
       <Head>
-        <title>Learn with Eesa</title>
+        <title>SenseNow Academy</title>
         <link
+          className="mb-4"
           rel="shortcut icon"
-          href="https://avatars.githubusercontent.com/u/97064249?v=4"
+          href="/assets/images/logo.png"
           type="image/x-icon"
         />
       </Head>
-      <main className="px-8 md:w-1/2 mx-auto my-48 md:text-xl">
-        <h1 className="my-8 text-4xl md:text-7xl font-bold bg-gradient-to-r from-[#b800ff] to-[#d4fc00] bg-clip-text text-transparent">
+      <main className="px-8 md:w-1/2 mx-auto md:text-xl">
+        <div className="px-8 mx-auto md:w-1/2 my-16">
+          <img src="/assets/images/logo.png" className="w-full" />
+        </div>
+
+        {/* <h1 className="text-center my-8 text-4xl md:text-7xl font-bold bg-gradient-to-r from-[#b800ff] to-[#d4fc00] bg-clip-text text-transparent py-4">
           Coding is important
-        </h1>
-        <div className="m-1">
-          <section className="mb-8">
+        </h1> */}
+
+        <div className="pb-24">
+          <section className="mb-12">
+            <h2 className="md:text-left text-center font-bold text-6xl mb-8">
+              Coding is important.
+            </h2>
             <p>
-              The{" "}
+              The Ontario Ministry of Education's{" "}
               <a
-                href="https://www.dcp.edu.gov.on.ca/en/curriculum/science-technology"
+                href="https://www.dcp.edu.gov.on.ca/en/curriculum/science-technology/context/strands#strand-a"
                 target="_blank"
                 rel="noreferrer"
               >
-                Ontario Ministry of Education
+                updated curriculum
               </a>{" "}
-              now includes coding in younger grades to help kids build important
-              problem-solving and tech skills as of 2022
+              now includes coding in grades as low as Grade 2 and continues
+              throughout high school as of 2022.
             </p>
             <br />
             <p>
-              Getting a head start in coding can give your child the confidence
-              and skills they need to succeed in this new curriculum and beyond
-            </p>
-            <br />
-            <p className="font-bold text-2xl mb-2">
-              Is your child in grades 4-8?
-            </p>
-            <br />
-            <p>
-              I teach the basics of <b>Python</b> — a versatile programming
-              language taught in many schools and universities
-            </p>
-            <br />
-            <p>The best way to get in touch is by sending me an email:</p>
-            <br />
-            <p>
-              <a>eszhd1 (at) gmail.com</a>
+              Getting a head start in coding fundamentals can enable your child
+              to succeed in this new curriculum and beyond.
             </p>
           </section>
 
-          <section className="mb-8">
-            <h2 className="font-bold text-2xl mb-2">
+          <section className="mb-12">
+            <h2 className="font-bold text-2xl mb-4">
+              Is your child in grades 4-8?
+            </h2>
+            <p>
+              I teach the basics of <b>Python</b> — a versatile programming
+              language taught in many schools and universities.
+            </p>
+            <br />
+            <p>
+              Interested?{" "}
+              <a href="https://example.com" target="_blank" rel="noreferrer">
+                Book me
+              </a>{" "}
+              and get the journey started!
+            </p>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="font-bold text-2xl mb-4">
               What makes me qualified?
             </h2>
-            <ul className="list-disc ml-6 leading-8">
-              <li>8+ years of coding experience</li>
-              <li>
+            <ul className="list-disc ml-6">
+              <li className="mb-4">6+ years of coding experience</li>
+              <li className="mb-4">
                 Knowledgeable in Python, JavaScript/TypeScript, Java, and SQL
               </li>
-
-              <li>
+              <li className="mb-4">
+                Teaching experience through the GPP3O course
+              </li>
+              <li className="mb-4">
                 3 CS certificates (one from{" "}
                 <a
                   href="https://cs50.harvard.edu/certificates/2020086e-51d6-4098-9026-29048e0651c5.png"
@@ -90,26 +104,36 @@ const Home: NextPage = () => {
                 </a>
                 )
               </li>
-              <li>
-                Published various CS-related articles{" "}
+              <li className="mb-4">
+                Published author for various computer science related articles
+                on{" "}
                 <a
                   href="https://www.freecodecamp.org/news/author/eesazahed/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   {" "}
-                  online
+                  freeCodeCamp.org
                 </a>
+              </li>{" "}
+              <li className="mb-4">
+                Built a fully functioning{" "}
+                <a
+                  href="https://laser.vercel.app/feed"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  social media
+                </a>{" "}
+                platform as a hobby project
               </li>
-              <li>Teaching experience through the GPP3O course</li>
-              <li>Earned credits in ICD2O & ICS3U</li>
             </ul>
           </section>
 
-          <section className="mb-8">
-            <h2 className="font-bold text-2xl mb-2">Find me online </h2>
-            <ul className="list-disc ml-6 leading-8">
-              <li>
+          <section className="mb-12">
+            <h2 className="font-bold text-2xl mb-4">Find me online </h2>
+            <ul className="list-disc ml-6">
+              <li className="mb-4">
                 <a
                   href="https://linkedin.com/in/eszhd"
                   target="_blank"
@@ -118,7 +142,7 @@ const Home: NextPage = () => {
                   LinkedIn
                 </a>
               </li>
-              <li>
+              <li className="mb-4">
                 <a
                   href="https://github.com/eesazahed"
                   target="_blank"
