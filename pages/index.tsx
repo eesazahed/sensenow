@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         className="w-full py-16"
         style={{
           backgroundImage:
-            "url(https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg)",
+            "url(https://gist.github.com/user-attachments/assets/306311cd-1069-4469-bc3a-1967776d8107.png)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -42,22 +42,18 @@ const Home: NextPage = () => {
         </div>
       </header>
 
-      <div className="mx-8">
+      <div className="mx-12">
         <a
           href="https://example.com"
           target="_blank"
           rel="noreferrer"
-          className="w-full mx-auto md:w-1/3 font-sans uppercase block bg-green-500 hover:bg-green-600 text-white no-underline py-4 my-16 rounded-xl text-2xl text-center cursor-pointer duration-200"
+          className="w-full mx-auto md:w-1/3 font-sans uppercase block bg-green-500 hover:bg-green-600 text-white no-underline p-4 my-16 rounded-xl text-2xl text-center cursor-pointer duration-200"
         >
-          Register now
+          Register
         </a>
       </div>
 
       <main className="rounded-2xl p-12 my-12 w-full md:w-1/2 mx-auto md:text-xl md:shadow-2xl">
-        {/* <h1 className="text-center my-8 text-4xl md:text-7xl font-bold bg-gradient-to-r from-[#b800ff] to-[#d4fc00] bg-clip-text text-transparent py-4">
-          Coding is important
-        </h1> */}
-
         <div>
           <section className="mb-12">
             <h2 className="md:text-left text-center font-bold text-4xl md:text-6xl mb-8">
@@ -100,9 +96,9 @@ const Home: NextPage = () => {
               href="https://example.com"
               target="_blank"
               rel="noreferrer"
-              className="w-full mx-auto md:w-1/3 font-sans uppercase block bg-green-500 hover:bg-green-600 text-white no-underline py-4 mt-8 mb-16 rounded-xl text-2xl text-center cursor-pointer duration-200"
+              className="w-full mx-auto md:w-1/3 font-sans uppercase block bg-green-500 hover:bg-green-600 text-white no-underline p-4 mt-8 mb-16 rounded-xl text-2xl text-center cursor-pointer duration-200"
             >
-              Register now
+              Register
             </a>
           </section>
 
