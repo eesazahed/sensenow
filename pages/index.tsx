@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         />
       </Head>
       <main className="px-8 w-full md:w-1/2 mx-auto md:text-xl">
-        <div className="px-8 mx-auto w-full md:w-1/2 my-16">
+        <div className="px-8 mx-auto w-full md:w-2/3 my-16">
           <img
             src="https://gist.github.com/user-attachments/assets/4aab369f-1ba7-4e03-9e6a-dc1d7c94213a.png"
             className="w-full"
@@ -37,8 +37,8 @@ const Home: NextPage = () => {
 
         <div className="pb-24">
           <section className="mb-12">
-            <h2 className="md:text-left text-center font-bold text-4xl md:text-6xl mb-8">
-              Coding is important
+            <h2 className="md:text-left text-center font-bold text-4xl md:text-6xl mb-4">
+              Coding is cruical
             </h2>
             <p>
               The Ontario Ministry of Education&apos;s{" "}
