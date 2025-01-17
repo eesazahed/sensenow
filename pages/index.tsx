@@ -24,7 +24,11 @@ const Home: NextPage = () => {
       </Head>
       <main className="px-8 md:w-1/2 mx-auto md:text-xl">
         <div className="px-8 mx-auto md:w-1/2 my-16">
-          <img src="/assets/images/logo.png" className="w-full" />
+          <img
+            src="/assets/images/logo.png"
+            className="w-full"
+            alt="Logo for SenseNow Academy"
+          />
         </div>
 
         {/* <h1 className="text-center my-8 text-4xl md:text-7xl font-bold bg-gradient-to-r from-[#b800ff] to-[#d4fc00] bg-clip-text text-transparent py-4">
@@ -37,7 +41,7 @@ const Home: NextPage = () => {
               Coding is important.
             </h2>
             <p>
-              The Ontario Ministry of Education's{" "}
+              The Ontario Ministry of Education&apos;s{" "}
               <a
                 href="https://www.dcp.edu.gov.on.ca/en/curriculum/science-technology/context/strands#strand-a"
                 target="_blank"
