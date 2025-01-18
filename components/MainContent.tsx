@@ -59,6 +59,7 @@ const MainContent = () => {
               <>
                 3 CS certificates (one from{" "}
                 <a
+                  key="harvard-cert"
                   href="https://cs50.harvard.edu/certificates/2020086e-51d6-4098-9026-29048e0651c5.png"
                   target="_blank"
                   rel="noreferrer"
@@ -67,6 +68,7 @@ const MainContent = () => {
                 </a>
                 , two from{" "}
                 <a
+                  key="fcc-cert"
                   href="https://www.freecodecamp.org/eesazahed"
                   target="_blank"
                   rel="noreferrer"
@@ -108,6 +110,7 @@ const MainContent = () => {
           <ListWithLinks
             items={[
               <a
+                key="linkedin"
                 href="https://linkedin.com/in/eszhd"
                 target="_blank"
                 rel="noreferrer"
@@ -115,6 +118,7 @@ const MainContent = () => {
                 LinkedIn
               </a>,
               <a
+                key="github"
                 href="https://github.com/eesazahed"
                 target="_blank"
                 rel="noreferrer"
